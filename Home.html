@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMingle Website</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="container">
+            <img src="img/logo.jpeg" alt="Logo" class="logo">
+            <h1>CodeMingle</h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Home.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Join_Us.html">Join Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Programs
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Java.html">Java</a>
+                                <a class="dropdown-item" href="Python.html">Python</a>
+                                <a class="dropdown-item" href="GithubGitBash.html">Github and GitBash</a>
+                                <a class="dropdown-item" href="PHP.html">PHP</a>
+                                <a class="dropdown-item" href="MySql.html">MySql</a>
+                                <a class="dropdown-item" href="CSharp.html">C#</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SlideShow images -->
+    <main class="container">
+        <!-- Display the fetched photos -->
+        <div class="image-container">
+            <img id="slideshow" src="img/a.png" alt="Random Photo" class="img-fluid">
+        </div>
+        <div class="translucent-overlay"></div>
+        <div class="content">
+            <h2>About Us</h2>
+            <p>CodeMingle Website is dedicated to providing quality education and resources to learners
+                around the world. We believe in making education accessible, engaging, and empowering. Our team of
+                passionate educators is committed to helping you succeed on your learning journey.</p>
+            <p>Join us in exploring the vast world of knowledge and skills. Whether you are a beginner or an
+                experienced learner, we have something for everyone. Let's learn, grow, and excel together!</p>
+        </div>
+    </div>
+
+    <!-- "What Makes Us Different?" section -->
+
+    <section class="different-section">
+        <h2>Discover the CodeMingle Difference</h2>
+    
+        <div class="different-point">
+            <h3>Quality Instructors</h3>
+            <p>Our courses are led by experienced and knowledgeable instructors who are not only experts in their field but also dedicated educators. They bring real-world insights and passion to every lesson.</p>
+        </div>
+    
+        <div class="different-point">
+            <h3>Hands-On Learning Experience</h3>
+            <p>Immerse yourself in a hands-on learning experience where theory meets practice. Our curriculum provides ample opportunities for students to apply what they learn through engaging and practical exercises.</p>
+        </div>
+    
+        <div class="different-point">
+            <h3>Flexibility and Personalization</h3>
+            <p>We understand that every learner is unique. That's why we offer a variety of courses tailored to different learning styles and skill levels. Whether you're a beginner, intermediate, or advanced learner, we have the right path for you.</p>
+        </div>
+    
+        <div class="different-point">
+            <h3>Convenient Operating Hours</h3>
+            <p>Life is busy, and we get it. That's why we offer flexible operating hours, including extended and 24/7 availability. We cater to individuals with diverse schedules, making education accessible when it's most convenient for you.</p>
+        </div>
+    
+        <div class="different-point">
+            <h3>Supportive Learning Community</h3>
+            <p>At CodeMingle, we believe in fostering a supportive learning environment. Join a community where students collaborate, ask questions, and seek guidance from instructors. Your success is our priority.</p>
+        </div>
+    </section>
+    
+    </main>
+
+
+<!-- Courses Section -->
+<section id="OurCourses" class="courses-section">
+    <h2>Our Courses</h2>
+</section>
+
+
+
+<section class="ready-to-start box">
+    <div class="container">
+       <center><h2>Ready to Get Started?</h2></center> 
+        <p>Explore our courses, connect with us, and join our vibrant community today.</p>
+        <h5>Explore Courses:</h5>
+    </div>
+</section>
+
+<hr>
+
+    <div class="courses-container">
+        <!-- Program 1 -->
+        <div class="program">
+            <img src="img/a.png" alt="Java" style="width: 100%; max-height: 280px;">
+            <center>
+                <h2>Java</h2>
+            </center>
+            <p>You will learn complete Java in just 5 months from very basic to advanced.</p>
+            <p><strong>Duration:</strong> 5 months</p>
+            <p><strong>Cost:</strong> Rs. 2000/month</p>
+            <a href="Java.html" class="enroll-button">Details</a>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="program">
+            <img src="img/b.png" alt="Python" style="width: 100%; max-height: 280px;">
+            <center>
+                <h2>Python</h2>
+            </center>
+            <p>You will learn complete Python in just 3 months from very basic to advanced.</p>
+            <p><strong>Duration:</strong> 3 months</p>
+            <p><strong>Cost:</strong> Rs. 2500/month</p>
+            <a href="Python.html" class="enroll-button">Details</a>
+
+        </div>
+
+        <!-- Program 3 -->
+        <div class="program">
+            <img src="img/c.png" alt="Github and GitBash" style="width: 100%; max-height: 280px;">
+            <center>
+                <h2>Github and GitBash</h2>
+            </center>
+            <p>You will learn complete control over your Github account in just 1 month from very basic to
+                advanced.</p>
+            <p><strong>Duration:</strong> 2 months</p>
+            <p><strong>Cost:</strong> Rs. 1500/month</p>
+            <a href="GithubGitBash.html" class="enroll-button">Details</a>
+
+        </div>
+
+        <!-- Program 4 -->
+        <div class="program">
+            <img src="img/d.jpeg" alt="PHP" style="width: 100%; max-height: 280px;">
+            <center>
+                <h2>PHP</h2>
+            </center>
+            <p>You will learn PHP in 4 months from very basic to advanced.</p>
+            <p><strong>Duration:</strong> 4 months</p>
+            <p><strong>Cost:</strong> Rs. 2500/month</p>
+            <a href="PHP.html" class="enroll-button">Details</a>
+
+        </div>
+
+        <!-- Program 5 -->
+        <div class="program">
+            <img src="img/e.jpeg" alt="MySql" style="width: 100%; max-height: 280px;">
+            <center>
+                <h2>MySql</h2>
+            </center>
+            <p>You will learn MySql in 3 months from very basic to advanced.</p>
+            <p><strong>Duration:</strong> 3 months</p>
+            <p><strong>Cost:</strong> Rs. 3500/month</p>
+            <a href="MySql.html" class="enroll-button">Details</a>
+
+        </div>
+
+        <!-- Program 6 -->
+        <div class="program">
+            <img src="img/f.png" alt="C#" style="width: 100%; max-height: 280px;">
+            <center>
+                <h2>C#</h2>
+            </center>
+            <p>You will learn C# in 3 months from very basic to advanced.</p>
+            <p><strong>Duration:</strong> 3 months</p>
+            <p><strong>Cost:</strong> Rs. 3000/month</p>
+            <a href="CSharp.html" class="enroll-button">Details</a>
+
+        </div>
+    </div>  
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Opening Times -->
+                <div class="col-md-4">
+                    <h3>Class Timings</h3>
+                    <p>Monday - Saturday: 08:00 — 21:00</p>
+                    <p>Sunday: 09:00 — 12:00</p>
+                </div>
+                <!-- Contact -->
+                <div class="col-md-4">
+                    <h3>Contact</h3>
+                    <p>Mob: xxxx343255</p>
+                    <p>Address: A- Sector 112 Block, Gurugram</p>
+                    <p>PinCode: 453434</p>
+                    <p>E-mail: CodeMingle123@gmail.com</p>
+                </div>
+                <!-- About -->
+                <div class="col-md-4">
+                    <h3>About</h3>
+                    <p>CodeMingle Website is dedicated to providing quality education and resources to learners
+                        around the world.</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">&copy; 2024 CodeMingle</p>
+    </footer>
+
+    <!-- JavaScript dependencies -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Slideshow JavaScript -->
+<script>
+    const images = ['img/a.png', 'img/b.png', 'img/c.png', 'img/d.jpeg', 'img/e.jpeg', 'img/f.png'];
+    let currentImageIndex = 0;
+
+    function updateSlideshow() {
+        document.getElementById('slideshow').src = images[currentImageIndex];
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+    }
+
+    setInterval(updateSlideshow, 2000); // Change image every 2 seconds
+
+    // Show the scroll notification after a delay
+    setTimeout(function () {
+        document.querySelector('.scroll-notification').classList.add('show', 'pulse');
+    }, 3000); // Adjust the delay (in milliseconds) as needed
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f8d36e, #ff5757);
+            animation: gradientAnimation 10s infinite;
+            background-size: 200% 200%;
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        button {
+            background-color: rgba(182, 70, 70, 0.8);
+            border-radius: 23pc;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            margin: 10px 0px;
+            border: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        form {
+            border: 1.5px solid #000000;
+            background-color: rgba(162, 160, 160, 0.361);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(126, 125, 125, 0.1);
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 1px solid rgb(0, 0, 0);
+            box-sizing: border-box;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            color: #c13b3b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .cancelbtn:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>MEMBER LOGIN</h1>
+    </center>
+    <form>
+        <div class="container">
+            <label>Email or Phone Number:</label>
+            <input type="text" placeholder="Enter your E-Mail or Phone Number" name="E-Mail or Phone Number" required>
+            <label>Password :</label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="button" class="btn" value="Login" onclick="location.href='Home.html';">LOGIN</button>
+            <button type="button" class="btn" onclick="location.href='Register.html';">REGISTER</button>
+            <input type="checkbox" checked="checked"> Remember me
+            <button type="button" class="cancelbtn">Cancel</button>
+            Forgot <a href="Forget_password.html">password?</a>
+        </div>
+    </form>
+</body>
+</html>
+
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join CodeMingle</title>
+    <link rel="stylesheet" href="joinus.css">
+</head>
+
+<body>
+    <div class="contact-container">
+        <h1>Join CodeMingle</h1>
+        <p>Coding: Your Bridge to Infinite Possibilities</p>
+        <p class="welcome">To join, please fill out the form below accurately to enable us to serve you better! Welcome!</p>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="firstName">First name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="contactNumber">Mobile number</label>
+                <input type="tel" id="contactNumber" name="contactNumber">
+            </div>
+            <div class="form-group">
+                <label for="startTime">Start Time *</label>
+                <input type="time" id="startTime" name="startTime" required>
+            </div>
+            <div class="form-group">
+                <label for="startDate">Start Date *</label>
+                <input type="date" id="startDate" name="startDate" required>
+            </div>
+            <div class="form-group">
+                <label for="program">Programs</label>
+                <select id="program" name="program">
+                    <option value="select">Select Program </option>
+                    <option value="program1">Java</option>
+                    <option value="program2">Python</option>
+                    <option value="program2">Github and GitBash</option>
+                    <option value="program2">PHP</option>
+                    <option value="program2">MySql</option>
+                    <option value="program2">C#</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="specialRequest">Any special request</label>
+                <textarea id="specialRequest" name="specialRequest" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="learningHours">Learning Hours *</label>
+                <input type="number" id="learningHours" name="learningHours" required>
+            </div>
+
+            <button type="submit" class="Submit-button" onclick="window.location.href='Submit.html';">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
